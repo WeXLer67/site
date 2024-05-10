@@ -1,0 +1,304 @@
+html{
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+}
+
+span{
+    font-size: 36px; 
+}
+
+a{
+    text-decoration:none;
+    color: #000;
+}
+
+figure{
+    width: 400px;
+    height: 422px;
+    margin: 0;
+}
+
+figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    margin-top: 28px;
+
+}
+
+#tg{
+    height: auto;
+}
+
+.style_header{
+    background-color: #DCC5D6;
+    max-width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.style_logo{
+    max-width: 75px;
+    margin-bottom: -20px;
+    border-radius: 100%;
+}
+
+.style_logo-links{
+    max-width: 75px;
+    margin-bottom: -20px;
+    border-radius: 100%;
+}
+
+.style_logo-text{
+    font-size: 64px;
+    
+}
+
+.style_text{
+    font-size: 24px;
+    margin-right: 10px;
+    line-height: 2.2;
+}
+
+.style_text-group{
+    margin-left: 100px;
+}
+
+.style_main{
+    /* background-color: #E7DBE4; */
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(220,197,214,1) 100%);
+    max-width: 100vw;
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.style_photo-main{
+    max-width: 367px;
+    max-height: 472px;
+    border-radius: 20px;
+}
+
+.style_smile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+} 
+
+.style_Links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.style_smile{
+    margin-bottom: 55px;
+}
+
+.style_photo-gallery{
+    background-color: #E7DBE4;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.gallery{
+    display: grid;
+    margin: 0 auto;
+    max-width: 1280px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+}
+
+
+.style_img{
+    max-width: 363px;
+    max-height: 422px;
+    border-radius: 20px;
+}
+
+.style_qr{
+    width: 18%;
+
+    border-radius: 20px;
+}
+
+.img-about{
+    width: 600px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:1024px) {
+    .style_main{
+        flex-direction: column;
+    }
+    .gallery{
+        grid-template-columns: 1fr ;
+        
+    }
+    figure{
+        width: auto;
+    }
+    span{
+        font-size: 24px;
+    }
+    .style_logo-links{
+        max-width: 65px;
+        
+    }
+    .style_qr{
+        width: 35%;
+    }
+
+}
+
+@media (max-width:764px){
+    .style_logo{
+        max-width: 70px;
+        margin-bottom: -15px;
+        border-radius: 100%;
+    }
+
+
+    .img-about{
+        max-height: 500px;
+        max-width: 400px;
+    }
+
+    .style_logo-text{
+        font-size: 55px;
+
+    }
+
+    .style_text-group{
+        margin-left: 10px;
+
+    }
+    
+}
+@media (max-width:704px){
+    .style_text{
+        font-size: 25px;
+    }
+    
+    .style_logo{
+        max-width: 70px;
+        margin-bottom: -15px;
+        border-radius: 100%;
+    }
+
+    .style_logo-text{
+        font-size: 55px;
+
+    }
+
+    
+}
+
+@media (max-width:670px) {
+    .style_header{
+        flex-direction: column
+    }
+    span{
+        font-size: 20px; 
+    }
+}
+
+@media (max-width:554px) {
+    .style_Links{
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .style_logo-links{
+        max-width: 35px;
+        /* margin-bottom: -10px; */
+        border-radius: 100%;
+        align-content: center
+
+    }
+}
+    
+
+@media (max-width:540px){
+    
+    .style_text{
+        font-size: 20px;
+        margin-right: 10px;
+        line-height: 2.2;
+    }
+
+    .style_logo-links{
+        max-width: 35px;
+        margin-bottom: -10px;
+        border-radius: 100%;
+    }
+
+    .img-about{
+        max-height: 450px;
+        max-width: 350px;
+    }
+}
+
+@media (max-width:425px) {
+    .style_qr{
+        width: 50%;
+    }
+
+    .style_logo-links{
+        max-width: 35px;
+        margin-bottom: -10px;
+        border-radius: 100%;
+    }
+}
+
+@media (max-width:407px) {
+    .style_text-group {
+        margin: 0 auto;
+    }
+   
+}
+
+@media (max-width:320px) {
+    .style_photo-main{
+        max-width: 250px;
+        max-height: 350px;
+        border-radius: 20px;
+    }
+    .img-about{
+        max-height: 350px;
+        max-width: 250px;
+    }
+}
+
+
+
